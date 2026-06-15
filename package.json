@@ -1,0 +1,24 @@
+{
+  "name": "homework4",
+  "version": "1.0.0",
+  "description": "This is my homework",
+  "homepage": "https://github.com/pulse19-udemy/homework4#readme",
+  "bugs": {
+    "url": "https://github.com/pulse19-udemy/homework4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulse19-udemy/homework4.git"
+  },
+  "license": "ISC",
+  "author": "Jerron Jones",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "dependencies": {
+    "sass": "^1.101.0"
+  }
+}

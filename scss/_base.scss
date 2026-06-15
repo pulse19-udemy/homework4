@@ -1,0 +1,45 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ min-height: 100%
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+.site-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.site-btn:hover {
+    transform: translateY(-2px);
+}
+
+.site-btn-primary{
+    background-color: $primary-button-background-color;
+    color: $white !important;
+
+}
+
+.site-btn-outline {
+    background-color: $secondary-button-background-color;
+    color: $primary-button-background-color !important;
+
+}
+.center-content{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
